@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    height: 75px;
+    border-bottom:  1px solid black;
+  
+}
+header .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+header .logo ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+header .logo ul li{
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+
+main .container {
+    margin-top: 60px;
+}
+
+main .container .main-list{
+    margin-top: 20px;
+}
+main .container label .title{
+    margin-top: 40px;
+}
+main .container .desc{
+margin-top: 10px;
+}
+
+main  .main-list .main-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .main-card h6{
+    background-color: beige;
+    margin-top: 10px;
+}
+main .container .main-list .main-card button{
+    color: red;
+    background-color: black;
+    height: 48px;
+}
+
+
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
